@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>update_goods</class>
+ <widget class="QMainWindow" name="update_goods">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="update_bt">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>340</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>修改</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="tofront">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>260</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>80</y>
+      <width>391</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>商品名称</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>商品类型</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="goods_type">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>母婴</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>数码</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>男装</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>生鲜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>食品</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>女装</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鞋靴</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>饰品</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>百货</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>手机</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>箱包</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>家装</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>内衣</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>美妆</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>企业</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>运动</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>洗护</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>电器</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>车品</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>保健</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>价格</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>库存</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QDoubleSpinBox" name="goods_prices">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="maximum">
+        <double>9999.989999999999782</double>
+       </property>
+       <property name="singleStep">
+        <double>0.500000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QSpinBox" name="goods_rest">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="maximum">
+        <number>9999</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="goods_name">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

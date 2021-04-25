@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>view_trade</class>
+ <widget class="QMainWindow" name="view_trade">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>807</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="trade">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>781</width>
+      <height>291</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>30</y>
+      <width>391</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>商品名称</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="goods_name">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>商品类型</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="goods_type">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>全部</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>母婴</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>数码</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>男装</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>生鲜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>食品</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>女装</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鞋靴</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>饰品</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>百货</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>手机</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>箱包</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>家装</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>内衣</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>美妆</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>企业</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>运动</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>洗护</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>电器</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>车品</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>保健</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="ser_bt">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>120</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>搜索</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="tomain">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>首页</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>807</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

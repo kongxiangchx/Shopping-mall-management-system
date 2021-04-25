@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>shop_info</class>
+ <widget class="QMainWindow" name="shop_info">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="change_bt">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>410</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>修改店铺信息</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="tomain">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>330</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>首页</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>30</y>
+      <width>391</width>
+      <height>287</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>用户名</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="username">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="pass1">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>店铺名</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="shop_name">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>服务电话</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="phone">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>所在地</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="addr">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>北京市</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>天津市</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>上海市</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>重庆市</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>河北省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>山西省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>辽宁省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>吉林省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>黑龙江省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>江苏省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>浙江省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>安徽省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>福建省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>江西省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>山东省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>河南省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>湖北省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>湖南省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>广东省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>海南省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>四川省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>贵州省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>云南省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>陕西省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>甘肃省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>青海省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>台湾省</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>内蒙古自治区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>广西壮族自治区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>西藏自治区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宁夏回族自治区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>新疆维吾尔自治区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>香港特别行政区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>澳门特别行政区</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="pass2">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>确认密码</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>密码</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>开店时间</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="shop_time">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
