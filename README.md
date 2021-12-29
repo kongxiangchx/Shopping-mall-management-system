@@ -11,7 +11,7 @@
 ## 商家端
 - shopMain.py：编写界面上组件的功能，并通过调用send_data.py向服务器发送相应的请求。
 - shop ：存放商家端的界面代码。
-- ui1 ：存放商家端的ui文件，使用qtdesigner设计。
+- ui2 ：存放商家端的ui文件，使用qtdesigner设计。
 - send_data.py 将数据封装成json之后发给服务器。
 
 ## 顾客端
