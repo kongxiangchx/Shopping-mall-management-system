@@ -30,3 +30,74 @@
 2. 运行server.py文件，即开启服务器。
 3. 若是商家，就运行shopMain.py文件；若是顾客，就运行customerMain.py文件。
 
+## 界面展示
+
+### 商家端
+
+- 商家注册
+
+<img src="pic\图片1.jpg" alt="图片1" style="zoom:25%;" />
+
+- 商家登录
+
+<img src="pic\图片2.jpg" alt="图片2" style="zoom:25%;" />
+
+- 商家端主界面
+
+<img src="pic\图片3.jpg" alt="图片3" style="zoom:25%;" />
+
+- 添加商品
+
+<img src="pic\图片4.jpg" alt="图片4" style="zoom:25%;" />
+
+- 查看商品
+
+<img src="pic\图片5.jpg" alt="图片5" style="zoom:25%;" />
+
+- 修改商品
+
+<img src="pic\图片6.jpg" alt="图片6" style="zoom:25%;" />
+
+<img src="pic\图片7.jpg" alt="图片7" style="zoom:25%;" />
+
+- 查看交易
+
+<img src="pic\图片8.jpg" alt="图片8" style="zoom:25%;" />
+
+- 店铺信息
+
+<img src="pic\图片9.jpg" alt="图片9" style="zoom:25%;" />
+
+### 顾客端
+
+- 顾客注册
+
+<img src="pic\图片10.jpg" alt="图片10" style="zoom:25%;" />
+
+- 顾客登录
+
+<img src="pic\图片11.jpg" alt="图片11" style="zoom:25%;" />
+
+- 顾客端主界面
+
+<img src="pic\图片12.jpg" alt="图片12" style="zoom:25%;" />
+
+- 查看商品
+
+<img src="pic\图片13.jpg" alt="图片13" style="zoom:25%;" />
+
+- 购买商品
+
+<img src="pic\图片14.jpg" alt="图片14" style="zoom:25%;" />
+
+- 查看交易
+
+<img src="pic\图片15.jpg" alt="图片15" style="zoom:25%;" />
+
+- 取消交易
+
+<img src="pic\图片16.jpg" alt="图片16" style="zoom:25%;" />
+
+- 顾客信息
+
+<img src="pic\图片17.jpg" alt="图片17" style="zoom:25%;" />
