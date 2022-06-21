@@ -281,17 +281,4 @@ class Customer_op:
 
 
 if __name__ == "__main__":
-    # op1=Shop_op()
-    # print(op1.update_goods('haha','尿不湿升级','尿不湿升级1','母婴',30.0,20))
-    # print(op1.view_goods('haha','','全部'))
-    # print(op1.update_shop('haha','www','空想小店','13101661856','黑龙江省'))
     op1 = Customer_op()
-    # print(op1.register('hi','www','空想','13101661856','哈理工'))
-    # print(op1.login('hi','wwww'))
-    # print(op1.view_goods('','数码',''))
-    # print(op1.all_goods())
-    # print(op1.buy_goods('hihi','尿不湿','haha','2','60'))
-    # print(op1.view_goods('','全部',''))
-    # print(op1.view_trade('hihi','','全部'))
-    # print(op1.all_trade('hihi'))
-    # print(op1.cus_info('hihi'))
