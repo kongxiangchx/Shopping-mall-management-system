@@ -347,6 +347,8 @@ class Cusinfo(QMainWindow, Ui_cus_info):
 
 
 if __name__ == '__main__':
+    # 高分辨率屏幕自适应
+    QtCore.QCoreApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
     app = QApplication(sys.argv)
     user = ""
     myWin1 = Register()

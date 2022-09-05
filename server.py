@@ -188,7 +188,7 @@ if __name__ == "__main__":
     while True:
         conn, addr = s.accept()
         recv = json.loads(conn.recv(1024).decode())
-        # print(json.dumps(recv))
+        print(json.dumps(recv))
         if recv['id'] == 'shop':
             Shop1 = Shop(conn)
             if recv['type'] == 'register':
