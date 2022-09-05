@@ -24,6 +24,12 @@
 - server.py：主要用来处理商家和顾客发来的请求，并调用mysql_op对数据库进行操作。
 - mysql_op.py：处理商家和顾客对数据库的操作。
 
+## 包安装
+- pyqt5安装：
+pip install pyqt5 -i https://pypi.douban.com/simple
+- pyqt5-designer安装：
+pip install pyqt5-tools -i https://pypi.douban.com/simple
+
 ## 项目运行
 
 1. 通过mall.sql文件创建数据库、相关数据表和触发器。

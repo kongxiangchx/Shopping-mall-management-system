@@ -1,4 +1,4 @@
-import MySQLdb
+import pymysql
 import time
 import datetime
 
@@ -11,7 +11,7 @@ class Shop_op:
         self.port = 3306
 
     def connect(self):
-        self.conn = MySQLdb.connect(
+        self.conn = pymysql.connect(
             host=self.host, user=self.user, passwd=self.passwd, port=self.port, charset='utf8')
         self.conn.select_db('mall')
         self.cur = self.conn.cursor()
@@ -154,7 +154,7 @@ class Customer_op:
         self.port = 3306
 
     def connect(self):
-        self.conn = MySQLdb.connect(
+        self.conn = pymysql.connect(
             host=self.host, user=self.user, passwd=self.passwd, port=self.port, charset='utf8')
         self.conn.select_db('mall')
         self.cur = self.conn.cursor()
